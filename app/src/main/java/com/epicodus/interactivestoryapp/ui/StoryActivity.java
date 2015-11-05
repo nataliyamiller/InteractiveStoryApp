@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.util.Log;
 
 import com.epicodus.interactivestoryapp.R;
+import com.epicodus.interactivestoryapp.model.Page;
 
 public class StoryActivity extends AppCompatActivity {
 
@@ -23,6 +24,7 @@ public class StoryActivity extends AppCompatActivity {
             name = "Friend";
         }
         Log.d(TAG, name);
+
     }
 
 }
